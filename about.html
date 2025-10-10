@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Wang | About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="brand">
+                <a href="index.html">Lucas Wang</a>
+            </div>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About</a>
+                <a href="research.html">Research</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container narrow">
+                <h1>About</h1>
+                <p class="lead">Curious mind. Systems thinker. Advocate for equitable technology.</p>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="container narrow">
+                <p>Lucas Wang is an academic researcher committed to advancing responsible innovation at the intersection of machine learning and human experience. His work spans computational creativity, data visualization, and collaborative analytics, with a focus on designing systems that empower interdisciplinary teams.</p>
+                <p>Lucas currently serves as an assistant professor at the Center for Applied Intelligence, where he leads the Human-Centered AI Lab. Prior to academia, he collaborated with industry partners to translate research prototypes into products that improve decision-making and foster inclusion.</p>
+                <p>He holds a Ph.D. in Computer Science from the University of Cascadia. Outside the lab, Lucas mentors emerging scholars, contributes to open-source tools, and enjoys composing ambient music.</p>
+                <div class="details-grid">
+                    <div>
+                        <h2>Research Interests</h2>
+                        <ul>
+                            <li>Interactive and explainable machine learning</li>
+                            <li>Collaborative intelligence systems</li>
+                            <li>Responsible and ethical AI practices</li>
+                            <li>Immersive analytics</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Contact</h2>
+                        <ul class="contact-list">
+                            <li><span>Email</span><a href="mailto:lucas.wang@university.edu">lucas.wang@university.edu</a></li>
+                            <li><span>Office</span>Room 425, Innovation Hall</li>
+                            <li><span>Address</span>1234 Discovery Ave, Cascadia, CA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lucas Wang. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
