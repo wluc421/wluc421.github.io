@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Wang | Research</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="brand">
+                <a href="index.html">Lucas Wang</a>
+            </div>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="research.html" class="active">Research</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Research</h1>
+                <p class="tagline">Selected work and ongoing explorations.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container stack">
+                <article class="paper">
+                    <div>
+                        <h2>Adaptive Systems for Collaborative Discovery</h2>
+                        <p class="paper-meta">Lucas Wang · Working Paper · 2024</p>
+                    </div>
+                    <div class="paper-actions">
+                        <a class="link-arrow" href="assets/papers/lucas-wang-adaptive-systems.pdf" target="_blank" rel="noopener">View PDF</a>
+                        <a class="link-muted" href="assets/papers/lucas-wang-adaptive-systems.pdf" download>Download</a>
+                    </div>
+                </article>
+
+                <article class="paper">
+                    <div>
+                        <h2>Designing Human-Guided Machine Learning Pipelines</h2>
+                        <p class="paper-meta">Lucas Wang, Mira Patel · Journal of Interactive AI · 2023</p>
+                    </div>
+                    <div class="paper-actions">
+                        <span class="link-muted">PDF forthcoming</span>
+                    </div>
+                </article>
+
+                <article class="paper">
+                    <div>
+                        <h2>Sensing Empathy: Multimodal Signals in Collaborative Analytics</h2>
+                        <p class="paper-meta">Lucas Wang, Kenji Ito, Sara Delgado · CHI · 2022</p>
+                    </div>
+                    <div class="paper-actions">
+                        <span class="link-muted">PDF forthcoming</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lucas Wang</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

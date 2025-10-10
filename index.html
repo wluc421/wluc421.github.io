@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Wang | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="brand">
+                <a href="index.html">Lucas Wang</a>
+            </div>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="research.html">Research</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <p class="eyebrow">Assistant Professor · Center for Applied Intelligence</p>
+                <h1>Lucas Wang</h1>
+                <p class="tagline">Human-centered machine learning researcher.</p>
+                <p class="intro">I build calm, interpretable systems that let teams explore data with clarity.</p>
+                <div class="hero-actions">
+                    <a class="link-arrow" href="research.html">View research</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container columns">
+                <div class="panel">
+                    <h2 class="section-title">Focus</h2>
+                    <p class="section-text">Responsible ML, transparent tooling, and collaborative discovery.</p>
+                </div>
+                <div class="panel">
+                    <h2 class="section-title">Current</h2>
+                    <p class="section-text">Designing lightweight interfaces for sharing model intuition across research teams.</p>
+                </div>
+                <div class="panel">
+                    <h2 class="section-title">Contact</h2>
+                    <ul class="list-plain">
+                        <li>
+                            <span>Email</span>
+                            <a href="mailto:lucas.wang@university.edu">lucas.wang@university.edu</a>
+                        </li>
+                        <li>
+                            <span>Office</span>
+                            Innovation Hall 425
+                        </li>
+                        <li>
+                            <span>Location</span>
+                            Cascadia, CA
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section subtle">
+            <div class="container">
+                <h2 class="section-title">Approach</h2>
+                <p class="section-text">Quiet interfaces, thoughtful defaults, and research that centers people as much as performance.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lucas Wang</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
